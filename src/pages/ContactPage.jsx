@@ -33,20 +33,6 @@ const ContactPage = () => {
         <div className="contact-row">
           <div className="contact-item-container">
             <h2>
-              <img src={phone} />
-            </h2>
-            <p>7834948463</p>
-          </div>
-          <div className="contact-item-row">
-            <h2>
-              <img src={location} />
-            </h2>
-            <p>New Delhi, India</p>
-          </div>
-        </div>
-        <div className="contact-row">
-          <div className="contact-item-container">
-            <h2>
               <img src={github} />
             </h2>
             <a
@@ -56,6 +42,12 @@ const ContactPage = () => {
             >
               My Github account
             </a>
+          </div>
+          <div className="contact-item-row">
+            <h2>
+              <img src={location} />
+            </h2>
+            <p>New Delhi, India</p>
           </div>
         </div>
       </main>
