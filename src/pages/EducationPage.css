@@ -1,0 +1,89 @@
+.college-details {
+  display: flex;
+  flex-direction: row;
+}
+.college-details img {
+  height: 200px;
+  width: 400px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.college-details li:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location-date {
+  display: flex;
+  justify-content: space-between;
+}
+.courses {
+  text-align: left;
+}
+
+.high_school_details {
+  display: flex;
+  flex-direction: row;
+}
+.high_school_details img {
+  height: 200px;
+  width: 400px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.high_school_details li:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location-date {
+  display: flex;
+  justify-content: space-between;
+}
+.college-details,
+.high_school_details {
+  list-style-type: none;
+}
+.education_heading {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .college-details,
+  .high_school_details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .college_element,
+  .school_element {
+    text-align: left;
+    padding: 1em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .education {
+    overflow-x: hidden;
+  }
+
+  .college {
+    overflow-x: hidden;
+  }
+
+  .high_school {
+    overflow-x: hidden;
+  }
+  .education_heading {
+    margin-bottom: -80px;
+  }
+}

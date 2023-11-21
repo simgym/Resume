@@ -1,0 +1,171 @@
+body {
+  background-color: rgba(58, 9, 9, 0.644);
+  color: rgb(250, 239, 224);
+  font-family: "Futura", sans-serif;
+  background-image: url(../assets/mobileBackground.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; /* Add this line */
+}
+.profile_image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-top: 10vh;
+  border: 2px solid white;
+  padding: 10px;
+}
+.homepage_details ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.homepage_details li {
+  margin: 0;
+  padding: 0;
+}
+.sketching {
+  background-color: rgb(56, 56, 56);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.sketching:hover {
+  background-color: white;
+  color: black;
+}
+.chess {
+  background-color: rgb(251, 199, 10);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.chess:hover {
+  background-color: white;
+  color: black;
+}
+.video_games {
+  background-color: rgb(56, 56, 56);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.video_games:hover {
+  background-color: white;
+  color: black;
+}
+.sketching,
+.chess,
+.video_games {
+  transition: transform 0.3s ease;
+}
+
+.sketching:hover,
+.chess:hover,
+.video_games:hover {
+  transform: translateY(-10px);
+}
+.about_me h1 {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 30px;
+}
+.about_me h2 {
+  text-align: left;
+  margin-left: 30px;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.profile_image:hover {
+  animation: bounce 0.5s;
+}
+.skill_set li {
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+.skill_set li:hover {
+  animation: bounce 0.5s;
+}
+@media (max-width: 600px) {
+  .homepage_details {
+    margin-top: 50px;
+  }
+  .sketching,
+  .chess,
+  .video_games {
+    height: 100px;
+    width: 100px;
+  }
+
+  .profile_image {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 400px;
+    margin-right: 50px;
+  }
+  .about_me ul {
+    margin-left: -50px;
+    margin-top: -15px;
+  }
+  .about_me h1 {
+    margin-left: 30px;
+  }
+
+  .interests_details {
+    margin-left: -30px;
+    margin-bottom: 30px;
+  }
+  .my_description {
+    margin-left: -40px;
+    margin-top: 30px;
+  }
+
+  .homepage_details ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .skill_set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -15px;
+  }
+  .skills {
+    margin-top: -80px;
+    margin-bottom: 30px;
+  }
+}
