@@ -15,7 +15,7 @@ const ContactPage = () => {
             <h2>
               <img src={mail} />
             </h2>
-            <p>adityaarya272004@gmail.com</p>
+            <p>aditya27arya@gmail.com</p>
           </div>
           <div className="contact-item-row">
             <h2>
