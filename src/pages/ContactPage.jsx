@@ -22,7 +22,7 @@ const ContactPage = () => {
               <img src={linkedin} />
             </h2>
             <a
-              href="https://linkedin.com/in/adityaarya2004"
+              href="www.linkedin.com/in/adiar24"
               target="_blank"
               rel="noopener noreferrer"
             >
