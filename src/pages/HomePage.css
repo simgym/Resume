@@ -8,7 +8,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh; /* Add this line */
+  min-height: 100vh;
 }
 .profile_image {
   border-radius: 50%;
@@ -120,6 +120,9 @@ body {
   animation: bounce 0.5s;
 }
 @media (max-width: 600px) {
+  body {
+    background-position-y: 10vh;
+  }
   .homepage_details {
     margin-top: 50px;
   }

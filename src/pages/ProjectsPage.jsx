@@ -36,6 +36,10 @@ const ProjectsPage = () => {
                   comments in a real-time database.
                 </li>
               </ul>
+              <p className="project-skills">
+                JavaScript, ReactJS, Redux, Redux toolkit, Firebase, REST APIs,
+                CSS, HTML
+              </p>
             </div>
           </div>
           <div className="project">
@@ -68,6 +72,9 @@ const ProjectsPage = () => {
                   mobile devices.
                 </li>
               </ul>
+              <p className="project-skills">
+                JavaScript, ReactJS, Redux, Redux toolkit, Firebase, CSS, HTML
+              </p>
             </div>
           </div>
           <div className="project">
@@ -98,6 +105,9 @@ const ProjectsPage = () => {
                   various devices.
                 </li>
               </ul>
+              <p className="project-skills">
+                JavaScript, ReactJS, Redux, Redux toolkit, REST API, CSS, HTML
+              </p>
             </div>
           </div>
         </div>

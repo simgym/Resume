@@ -1,6 +1,14 @@
 .contact-container {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+}
+
+.contact-heading {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  font-style: italic;
 }
 .contact-container a {
   color: white;

@@ -1,15 +1,15 @@
 import linkedin from "../assets/linkedin.jpg";
 import mail from "../assets/mail.jpg";
 import location from "../assets/location.jpg";
-import phone from "../assets/phone.jpg";
 import github from "../assets/github.jpg";
+import { ContactUs } from "./Message";
 import "./ContactPage.css";
 
 const ContactPage = () => {
   return (
     <>
       <main className="contact-container">
-        <h1>Contact</h1>
+        <h1 className="contact-heading">Contact</h1>
         <div className="contact-row">
           <div className="contact-item-container">
             <h2>
@@ -49,6 +49,11 @@ const ContactPage = () => {
             </h2>
             <p>New Delhi, India</p>
           </div>
+        </div>
+        <div>
+          <span>
+            <ContactUs />
+          </span>
         </div>
       </main>
     </>

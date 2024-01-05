@@ -50,6 +50,9 @@
 }
 .education_heading {
   margin-top: 100px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 @media screen and (max-width: 600px) {
